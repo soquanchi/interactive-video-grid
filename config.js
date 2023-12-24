@@ -14,7 +14,7 @@ const config = {
   */
 
   // Video Information
-  finalVideoIndex: 16, // the number of the last video in your folder
+  finalVideoIndex: 1, // the number of the last video in your folder
   
 
   // Page Setting (what shows up in the browser tab and search results)
