@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>An Interactive Video Grid Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="This is an interactive viewer for scenes."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <div class="full-video-popup" style="display: none">
+      <a
+        href="JavaScript:void(0)"
+        class="full-video-close"
+        id="close-full-video"
+        title="Close Video"
+        >✖</a
+      >
+    </div>
+    <div id="loading-page" style="display: block">
+      <div class="container">
+        <div class="loading-page-titles">
+          <h1 class="project-title">An Interactive Video Grid</h1>
+          <p class="project-subtitle">enter here.</p>
+        </div>
+        <div class="loading-page-controls">
+          <div
+            class="loading-spinner"
+            id="loading-spinner"
+            style="display: block"
+          ></div>
+          <div
+            id="start-button"
+            class="start-button animate-flicker"
+            href="JavaScript:void(0)"
+            title="Start Here"
+            style="display: none"
+          >
+            <p>⇧</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="main-page" style="display: none">
+      <div class="container">
+        <div class="empty-header"></div>
+        <div class="header">
+          <div class="header-titles">
+            <h2 class="project-title">An Interactive Video Grid</h2>
+            <p class="project-subtitle"></p>
+          </div>
+          <div class="header-controls">
+            <ul>
+              <li>
+                <a
+                  href="JavaScript:void(0)"
+                  id="more-controls"
+                  style="display: block"
+                  >* More Controls</a
+                >
+              </li>
+              <li>
+                <a
+                  href="JavaScript:void(0)"
+                  class="hidden-controls extra-bottom-margin"
+                  id="close-controls"
+                  title="Close"
+                  ><small>✖</small></a
+                >
+              </li>
+              <li>
+                <a
+                  href="JavaScript:void(0)"
+                  class="hidden-controls"
+                  id="play-series"
+                  title="Play Series"
+                  >Play Series</a
+                >
+              </li>
+              <li>
+                <a
+                  href="JavaScript:void(0)"
+                  class="hidden-controls"
+                  id="play-all"
+                  title="Play All"
+                  >Play All</a
+                >
+              </li>
+              <li>
+                <a
+                  href="JavaScript:void(0)"
+                  class="hidden-controls"
+                  id="stop-all"
+                  title="Stop All"
+                  >Stop All</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="main-content">
+          <div class="info-popup" style="display: none"></div>
+
+          <div class="video-grid"></div>
+        </div>
+        <div class="footer">
+          <div class="footer-left">
+            <p>
+              Inspired by Shane Denson's
+              <a
+                href="https://shanedenson.com/stuff/dont-look-now-javascript/index.html"
+              >
+                Interactive Video Essay</a
+              >
+            </p>
+            <p>
+              as part of the
+              <a href="https://www.quanzhang.xyz/modern-editing-tools"> Modern Editing Tools </a>
+              project &nbsp; (create your own at
+              <a href="#">here</a>)
+            </p>
+          </div>
+          <div class="footer-right">
+            <a
+              href="JavaScript:void(0)"
+              id="info-hover"
+              class="footer-right-item light-background"
+              style="display: none"
+              >¶</a
+            >
+            <a
+              href="JavaScript:void(0)"
+              id="full-video-toggle"
+              class="footer-right-item"
+              style="display: none"
+              >full</a
+            >
+            <a
+              href="JavaScript:void(0)"
+              id="tactile-toggle"
+              class="footer-right-item"
+              >tactile mode</a
+            >
+          </div>
+        </div>
+        <div class="empty-footer"></div>
+      </div>
+    </div>
+    <script src="config.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

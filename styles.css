@@ -1,0 +1,277 @@
+html,
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter Tight", Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+p, a, li {
+  font-family: "Inter Tight", Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  max-width: 55%;
+  min-width: 500px;
+  margin: auto;
+}
+
+/* loading page */
+.loading-page-titles {
+  font-size: max(1.1vw, 1.1em);
+}
+
+.loading-page-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+  margin-left: 10vw;
+  width: 100%;
+}
+
+.start-button {
+  color: #e32d45;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 3.5em;
+  cursor: pointer;
+}
+
+.animate-flicker {
+  animation: flickerAnimation 1s infinite;
+}
+
+@keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.loading-spinner {
+  width: 48px;
+  height: 48px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+.loading-spinner::after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid;
+  border-color: #e32d45 transparent;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*main page*/
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+  font-size: max(1vw, 0.85em);
+  position: relative;
+  line-height: 1.2em;
+}
+
+.empty-header {
+  min-height: 8vh;
+}
+
+.footer {
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  font-size: max(1vw, 0.85em);
+  line-height: 1.2em;
+}
+
+.empty-footer {
+  min-height: 10vh;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 0.5vw;
+}
+
+a.footer-right-item{
+  border: 0.2em solid #414a42;
+  padding: 0 0.2vw;
+  overflow: hidden;
+  text-wrap: nowrap;
+  font-size: 1vw;
+}
+
+a.footer-right-item:hover {
+  text-decoration: none;
+}
+
+.main-content {
+  margin-left: -0.4vw;
+  position: relative;
+}
+
+.video-grid {
+  display: grid;
+  column-gap: 1vw;
+  row-gap: 0.5vh;
+}
+
+video.video-grid-item {
+  width: 100%;
+  height: auto;
+  border: 0.4vw solid transparent;
+}
+
+.hover-playing {
+  border: 0.4vw solid #e32d45;
+}
+
+.click-playing {
+  border: 0.4vw solid #0c8a3a;
+}
+
+.auto-playing {
+  border: 0.4vw solid #88609c;
+}
+
+/* pop-ups */
+
+.info-popup {
+  position: absolute;
+  bottom: 2%;
+  left: 103%;
+  width: 15vw;
+  max-width: 18vw;
+  max-height: 100%;
+  font-family: 'Spectral', Times, serif;
+  font-weight: 300;
+  font-size: max(1vw, 0.8em);
+  color: #c9c9c9;
+  line-height: 130%;
+}
+
+.full-video-popup {
+  position: fixed;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: 9999;
+  text-align: center;
+}
+
+.full-video-close {
+  position: absolute;
+  top: 80px;
+  right: 80px;
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+a.full-video-close:link {
+  color: white;
+}
+
+a.full-video-close:visited {
+  color: white;
+}
+
+/* Video Controls */
+.header-controls {
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  line-height: 1.2em;
+}
+
+.hidden-controls {
+  display: none;
+}
+
+a:link {
+  color: #414a42;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #414a42;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.disabled {
+  color: #212121;
+  text-decoration: line-through;
+  cursor: not-allowed;
+}
+
+/* other */
+.extra-bottom-margin {
+  margin-bottom: 1vh;
+}
+
+.light-background {
+  background-color: #c9c9c9;
+}
+
+.full-size {
+  max-width: 100vw;
+  height: 100vh;
+  margin: auto;
+  object-fit: contain;
+}
+
