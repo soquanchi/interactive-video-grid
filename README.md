@@ -16,6 +16,8 @@ All programming literacy levels can adapt and fork this tool.
 ## Quick Start
 <a href="https://quan-1.gitbook.io/interactive-video-grid/start-now-get-the-videos-ready.">Start here.</a>
 
+Full documentation <a href="https://quan-1.gitbook.io/interactive-video-grid/">here</a>.
+
 ## License
 The Interactive Video Grid is licensed under GPLv3.
 Read more at: https://www.gnu.org/licenses/gpl-3.0.en.html
