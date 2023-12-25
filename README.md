@@ -10,7 +10,7 @@ I encourage the public to create their own versions of this project, populating 
 All programming literacy levels can adapt and fork this tool. 
 
 ## How to view it?
-1. Select **Download ZIP** under the green "Code" button on the page;
+1. Select **Download ZIP** under the green "**Code**" button on the page;
 2. Unzip the folder, and open "**index.html**" with your browser.
 
 ## Online Demos
