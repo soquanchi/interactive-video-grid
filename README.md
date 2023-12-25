@@ -1,2 +1,14 @@
-# interactive-video-grid
- A video grid built with HTML/Javascript.
+# An Interactive Video Grid
+
+## What is it?
+
+## Demos
+
+## Quick Start
+<a href="https://quan-1.gitbook.io/interactive-video-grid/start-now-get-the-videos-ready.">Start here.</a>
+
+## License
+
+## 
+
+
