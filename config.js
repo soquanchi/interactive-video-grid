@@ -27,7 +27,7 @@ const config = {
   // =====================
   // | Global Variables |
   // =====================
-  finalVideoIndex: 1, // the index of the last video in your folder, enter 15 if video15.mp4 is the last video in your folder
+  finalVideoIndex: 15, // the index of the last video in your folder, enter 15 if video15.mp4 is the last video in your folder
 
   // =================
   // | Page Settings |
@@ -38,8 +38,8 @@ const config = {
   // ======================
   // | Project Information|
   // ======================
-  projectTitle: "",
-  projectSubtitle: "",
+  projectTitle: "Don't Look Now: Paradoxes of Suture",
+  projectSubtitle: "A Reconfiguration of Shane Denson's Interactive Video Essay",
   projectInfo: "",
 
   // ==================
