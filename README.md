@@ -30,6 +30,6 @@ Read more at: https://www.gnu.org/licenses/gpl-3.0.en.html
 
 ## Technical Contact
 
-<a href="quanzh4396@gmail.com">Email</a> Quan.
+<a href="mailto:quanzh4396@gmail.com">Email</a> Quan.
 
 Please provide a detailed description of your issue. This will allow me to assist you more efficiently. 
