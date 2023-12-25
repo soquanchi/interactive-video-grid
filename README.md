@@ -20,9 +20,8 @@ All programming literacy levels can adapt and fork this tool.
 2. <a href="https://soquanchi.github.io/only-life-in-footsteps/index.html">Only Life in Footsteps: Hear Bresson's Mouchette(1967) with hands(or feet)</a>
 
 ## Quick Start for Creating Your Own
-<a href="https://quan-1.gitbook.io/interactive-video-grid/start-now-get-the-videos-ready.">Start here.</a>
+<a href="https://quan-1.gitbook.io/interactive-video-grid/">Start here.</a>
 
-Full documentation <a href="https://quan-1.gitbook.io/interactive-video-grid/">here</a>.
 
 ## License
 The Interactive Video Grid is licensed under GPLv3.
