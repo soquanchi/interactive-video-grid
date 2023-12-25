@@ -13,9 +13,11 @@ All programming literacy levels can adapt and fork this tool.
 1. Select **Download ZIP** under the green "**Code**" button on the page;
 2. Unzip the folder, and open "**index.html**" with your browser.
 
+(Note: If you're on @soquanchi's main branch, the downloaded files will only be templates.)
+
 ## Online Demos
-1. Don't Look Now: Paradoxes of Suture : A Reconfiguration of Shane Denson's Interactive Video Essay
-2. Only Life in Footsteps: Hear Bresson's Mouchette(1967) with hands(or feet)
+1. <a href="https://soquanchi.github.io/dont-look-now/index.html">Don't Look Now: Paradoxes of Suture : A Reconfiguration of Shane Denson's Interactive Video Essay</a>
+2. <a href="https://soquanchi.github.io/only-life-in-footsteps/index.html">Only Life in Footsteps: Hear Bresson's Mouchette(1967) with hands(or feet)</a>
 
 ## Quick Start for Creating Your Own
 <a href="https://quan-1.gitbook.io/interactive-video-grid/start-now-get-the-videos-ready.">Start here.</a>
