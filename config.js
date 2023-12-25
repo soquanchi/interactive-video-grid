@@ -14,7 +14,8 @@
         d. If you want to leave a field blank, just leave it empty between the quotation marks.
   
   ----------------
-    2. 'finalVideoIndex' is the only field that can not be left blank. It should be an integer.
+    2. 'finalVideoIndex' is the only field that you have to make change to and cannot leave blank. 
+        It should be an integer.
   
   ----------------
     3. Please refer to: https://quan-1.gitbook.io/interactive-video-grid/ for documentation of the project.
@@ -75,4 +76,6 @@ const config = {
     for including your project for display on the project page and its Github page.
   */
   autoGrantPermission: false,
+  authorNameforDisplay: "",
+  authorContact: "",
 };

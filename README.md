@@ -9,11 +9,15 @@ I encourage the public to create their own versions of this project, populating 
 
 All programming literacy levels can adapt and fork this tool. 
 
-## Demos
+## How to view it?
+1. Select **Download ZIP** under the green "Code" button on the page;
+2. Unzip the folder, and open "**index.html**" with your browser.
+
+## Online Demos
 1. Don't Look Now: Paradoxes of Suture : A Reconfiguration of Shane Denson's Interactive Video Essay
 2. Only Life in Footsteps: Hear Bresson's Mouchette(1967) with hands(or feet)
 
-## Quick Start
+## Quick Start for Creating Your Own
 <a href="https://quan-1.gitbook.io/interactive-video-grid/start-now-get-the-videos-ready.">Start here.</a>
 
 Full documentation <a href="https://quan-1.gitbook.io/interactive-video-grid/">here</a>.
@@ -24,4 +28,8 @@ Read more at: https://www.gnu.org/licenses/gpl-3.0.en.html
 
 ## Notable Works from the Community
 
+## Technical Contact
 
+<a href="quanzh4396@gmail.com">Email</a> Quan.
+
+Please provide a detailed description of your issue. This will allow me to assist you more efficiently. 
