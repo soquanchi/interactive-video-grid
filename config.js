@@ -27,27 +27,27 @@ const config = {
   // =====================
   // | Global Variables |
   // =====================
-  finalVideoIndex: 1, // the index of the last video in your folder, enter 15 if video15.mp4 is the last video in your folder
+  finalVideoIndex: 23, // the index of the last video in your folder, enter 15 if video15.mp4 is the last video in your folder
 
   // =================
   // | Page Settings |
   // =================
-  pageTitle: "", // for the browser tabs and search results
+  pageTitle: "Only Life in Footsteps - An Interactive Video Grid Project", // for the browser tabs and search results
   pageDescription: "",
 
   // ======================
   // | Project Information|
   // ======================
-  projectTitle: "",
-  projectSubtitle: "",
-  projectInfo: "",
+  projectTitle: "Only Life in Footsteps",
+  projectSubtitle: "Hear Bresson's Mouchette(1967) with hands(or feet)",
+  projectInfo: "Bresson's Mouchette teeters between a rhythm of life and, paradoxically, the constant interruption of it. Mouchette's extra loud and oddly wooden footsteps are only audible when she sporadically walks between places in town. It is in those moments, in the sound of her footsteps, when she is not being derisively called out by the townspeople or summoned by her dying mother, that we can truly witness life within her. While a linear editing promises continuation in space and movements, this approach unexpectedly accentuates the hearing. ",
 
   // ==================
   // |Custom Variables|
   // ==================
-  fullVideoExists: false, // enter true if you've included a fullvideo.mp4 in the videos folder
+  fullVideoExists: true, // enter true if you've included a fullvideo.mp4 in the videos folder
   initialVideoIndex: 1, // enter 4 will start the project at video4.mp4
-  gridColumnCount: 4, // number of columns
+  gridColumnCount: 5, // number of columns
   gridGapScale: 1, // grid gap size (1 is default)
   videoVolume: 1, // 1 is full volume, and 0 is completely mute
 
