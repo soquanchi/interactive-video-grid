@@ -22,9 +22,7 @@
   =======================================================================================
 */
 
-
 const config = {
-
   // =====================
   // | Global Variables |
   // =====================
@@ -41,7 +39,7 @@ const config = {
   // ======================
   projectTitle: "",
   projectSubtitle: "",
-  projectInfo: "", 
+  projectInfo: "",
 
   // ==================
   // |Custom Variables|
@@ -64,9 +62,17 @@ const config = {
     - You can use this color picker to get the hex color code of a color:
       https://g.co/kgs/sDiHLk
   */
-  hoverVideoBorder: "#e32d45", 
-  clickVideoBorder: "#0c8a3a", 
-  playSeriesVideoBorder: "#88609c", 
-  startButton: "#e32d45", 
-};
+  hoverVideoBorder: "#e32d45",
+  clickVideoBorder: "#0c8a3a",
+  playSeriesVideoBorder: "#88609c",
+  startButton: "#e32d45",
 
+  // ===========================================
+  // |Automated Permission Granting for Display|
+  // ===========================================
+  /* 
+    If it's set to true, the system will automatically grant permission 
+    for including your project for display on the project page and its Github page.
+  */
+  autoGrantPermission: false,
+};
