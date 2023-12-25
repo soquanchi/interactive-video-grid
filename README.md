@@ -2,7 +2,9 @@
 
 ## What is it?
 The Interactive Video Grid, an open-source software built with HTML and Javascript, allows simultaneous viewing, analysis, and recomposition of multiple videos with active mouse movement.
-This project, inspired by Shane Denson's Interactive Video Essay “Don’t Look Now: Paradoxes of Sutures” and as part of Quan Zhang's ongoing "Modern Editing tools" project, aims to provide the general public with alternatives to mainstream editing tools, by making non-linear, scripting-reliant, and less commonly demanded functionality available.
+
+This project, inspired by Shane Denson's Interactive Video Essay “<a href="https://shanedenson.com/stuff/dont-look-now-javascript/index.html">Don’t Look Now: Paradoxes of Sutures</a>” and as part of Quan Zhang's ongoing "Modern Editing tools" project, aims to provide the general public with alternatives to mainstream editing tools, by making non-linear, scripting-reliant, and less commonly demanded functionality available.
+
 I encourage the public to create their own versions of this project, populating the grid with videos of their liking, and to use it as an installation site, an analytical tool, an everyday tool for formal analysis, a teaching aid in classrooms...or much more.
 All programming literacy levels can adapt and fork this tool. 
 
