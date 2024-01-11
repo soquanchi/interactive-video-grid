@@ -40,7 +40,7 @@ const config = {
   // ======================
   projectTitle: "Don't Look Now: Paradoxes of Suture",
   projectSubtitle: "A Reconfiguration of Shane Denson's Interactive Video Essay",
-  projectInfo: "",
+  projectInfo: '"Thus, in summary, the speculary, unifying, imaginary function constitutes, on the one hand, the proper body of the subject and, on the other, the limits and the common ground without which linguistic syntagms and paradigms would be dissolved in an infinite sea of differences. Without the imaginary and the limit it imposes on any statement, statements would not function as mirrors of the referent. " \n \n - Daniel Dayan, "The Tutor Code of Classical Cinema" p.25',
 
   // ==================
   // |Custom Variables|
