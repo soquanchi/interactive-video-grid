@@ -35,7 +35,9 @@ Read more at: https://www.gnu.org/licenses/gpl-3.0.en.html
 
 ## Notable Works from the Community
 
-If you'd like to be featured here, reach out to the author at the email provided below. Alternatively, in a much more straightforward manner, you can set the autoGrantPermission variable in your config.js file if you've chosen to fork and publish through Github.
+If you'd like to be featured here, reach out to the author at the email provided below. 
+
+Alternatively, in a much more straightforward manner, you can set the **autoGrantPermission** variable in your config.js file to **true** if you've chosen to fork and publish through Github.
 
 ## Technical Contact
 
@@ -45,6 +47,6 @@ Please provide a detailed description of your issue. This will allow me to assis
 
 ## Special Thanks
 
-💚💚 A heartfelt thank you to the Timeline Tuesday group, whose invaluable criticism and constant support greatly shaped this project. 💚💚
+💚💚 A heartfelt thank you to the **Timeline Tuesday** group, whose invaluable criticism and constant support greatly shaped this project. 💚💚
 
 
