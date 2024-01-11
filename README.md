@@ -19,14 +19,14 @@ If you've been directed to this page via a URL shared by someone else to view th
 
 (Note: If you're on @soquanchi's main branch, the downloaded files will only be templates.)
 
+## Quick Start for Creating Your Own
+
+<a href="https://quan-1.gitbook.io/interactive-video-grid/">Start here.</a>
+
 ## Online Demos
 
 1. <a href="https://soquanchi.github.io/dont-look-now/index.html">Don't Look Now: Paradoxes of Suture : A Reconfiguration of Shane Denson's Interactive Video Essay</a>
 2. <a href="https://soquanchi.github.io/only-life-in-footsteps/index.html">Only Life in Footsteps: Hear Bresson's Mouchette(1967) with hands(or feet)</a>
-
-## Quick Start for Creating Your Own
-
-<a href="https://quan-1.gitbook.io/interactive-video-grid/">Start here.</a>
 
 ## License
 
