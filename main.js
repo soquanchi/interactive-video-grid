@@ -20,12 +20,12 @@ const updateTextByClassName = (className, newText) => {
   }
 };
 
-const appendVideo = (videoName, parentElement) => {
+const appendVideo = (videoName, parentElement, autoplayStatus) => {
   let video = document.createElement("video");
   video.src = "./videos/" + videoName + ".mp4";
   video.controls = false;
   video.loop = true;
-  video.autoplay = true;
+  video.autoplay = autoplayStatus;
   parentElement.appendChild(video);
   return video;
 };
@@ -264,7 +264,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     hoverToPopup(infoHover, infoPopup);
   }
 
-  const fullVideo = appendVideo("fullvideo", fullVideoPopup);
+  const fullVideo = appendVideo("fullvideo", fullVideoPopup, false);
   fullVideo.classList.add("full-size");
 
   // Full Video Toggle
